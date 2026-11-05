@@ -10,9 +10,12 @@
 | 파일명 | `ckpt_mgn.pt` |
 | 크기 | 1,053,775 bytes (약 1.0 MB) [확인] |
 | SHA-256 | `1537d9495f7849596611be7de2c23eeec177eda2b32fc69acf75bfc18af5e008` [확인] |
-| 위치 | GitHub Release `mgn-v0.1` (pearlhan-stack/Automation-Project-etch-AI) — 업로드 후 링크 기입 [미확인] |
+| 위치 | GitHub Release [`mgn-v0.1`](https://github.com/pearlhan-stack/Automation-Project-etch-AI/releases/tag/mgn-v0.1) (pre-release) [확인] |
+| 다운로드 | https://github.com/pearlhan-stack/Automation-Project-etch-AI/releases/download/mgn-v0.1/ckpt_mgn.pt |
 
-검증: `sha256sum ckpt_mgn.pt` 출력이 위 값과 같아야 한다.
+Release API가 보고한 첨부 파일의 크기(1,053,775)·digest(`sha256:1537d949...f5e008`)가 로컬 파일과 일치함 [확인].
+
+검증: `sha256sum ckpt_mgn.pt` 출력이 위 값과 같아야 한다. 사용할 때는 `runs/<run_id>/checkpoint.pt`로 둔다.
 
 ## 체크포인트 내용 [확인]
 
